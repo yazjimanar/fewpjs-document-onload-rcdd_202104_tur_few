@@ -1,5 +1,4 @@
-// Your code goes here
 document.addEventListener("DOMContentLoaded", function() {
-  let txt = getElementById('text');
-  txt.innerText="This is really cool!";
+  let txt = document.getElementById('text').innerHtml("This is really cool!");
+
 });
